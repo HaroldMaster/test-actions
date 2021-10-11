@@ -12,4 +12,7 @@ export class TwoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  add(){
+    return true;
+  }
 }
