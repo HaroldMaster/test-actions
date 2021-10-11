@@ -8,7 +8,7 @@ module.exports = {
     testPathIgnorePatterns: ['/src/environments/*', '/node_modules/'],
     transformIgnorePatterns: ['node_modules/(?!(ngx-auto-unsubscribe|ladda|spin.js)/)'],
     modulePathIgnorePatterns: ['/cypress/'],
-    coverageReporters: ['html', 'text', 'text-summary'],
+    coverageReporters: ['html','json-summary', 'text', 'text-summary'],
     transform: {
       '^.+\\spec.(ts|html)$': 'ts-jest'
     }

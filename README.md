@@ -1,5 +1,6 @@
 ![example workflow](https://github.com/HaroldMaster/test-actions/actions/workflows/testing.yml/badge.svg)
 
+
 # TestActions
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.14.

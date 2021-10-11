@@ -23,6 +23,6 @@ describe('TwoComponent', () => {
     expect(component).toBeTruthy();
   });
   it('should return an addition', ()=>{
-    expect(component.add()).toBe(9)
+    expect(component.add()).toBe(4)
   })
 });
