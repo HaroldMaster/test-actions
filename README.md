@@ -1,4 +1,4 @@
-![example workflow](https://github.com/HaroldMaster/test-actions/actions/workflows/testing.yml/badge.svg) ![check-code-coverage](https://img.shields.io/badge/code--coverage-69.57%25-yellow)
+![example workflow](https://github.com/HaroldMaster/test-actions/actions/workflows/testing.yml/badge.svg) ![check-code-coverage](https://img.shields.io/badge/code--coverage-80%25-green)
 
 # TestActions
 
