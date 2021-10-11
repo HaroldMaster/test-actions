@@ -12,21 +12,21 @@ export class TwoComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  // test(){
-  //   return true;
-  // }
-  // test1(){
-  //   return true;
-  // }
-  // test2(){
-  //   return true;
-  // }
-  // test3(){
-  //   return true;
-  // }
-  // test4(){
-  //   return true;
-  // }
+  test(){
+    return true;
+  }
+  test1(){
+    return true;
+  }
+  test2(){
+    return true;
+  }
+  test3(){
+    return true;
+  }
+  test4(){
+    return true;
+  }
   test5(){
     return true;
   }
