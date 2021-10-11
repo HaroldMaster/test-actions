@@ -14,6 +14,8 @@ jobs:
           npm test
           npx update-badge
       - uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Archive code coverage results
         uses: actions/upload-artifact@v2
         with:
