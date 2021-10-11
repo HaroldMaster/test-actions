@@ -13,7 +13,7 @@ jobs:
           npm install
           npm test
       - name: update code coverage badge
-        run: npx -p dependency-version-badge update-badge
+        run: npx -p check-code-coverage update-badge 
       - uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
