@@ -12,10 +12,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: npm install, build, and test
-        run: |
-          npm ci
-          npm test
+      - name: npm install
+        run: npm ci
+      - name: npm test
+        run: npm test
       - name: update code coverage badge
         run: npx -p check-code-coverage update-badge 
       - name: Get the current branch name
