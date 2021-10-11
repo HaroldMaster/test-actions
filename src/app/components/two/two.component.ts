@@ -21,16 +21,16 @@ export class TwoComponent implements OnInit {
   // test2(){
   //   return true;
   // }
-  test3(){
-    return true;
-  }
-  test4(){
-    return true;
-  }
-  test5(){
-    return true;
-  }
-  test6(){
-    return true;
-  }
+  // test3(){
+  //   return true;
+  // }
+  // test4(){
+  //   return true;
+  // }
+  // test5(){
+  //   return true;
+  // }
+  // test6(){
+  //   return true;
+  // }
 }
