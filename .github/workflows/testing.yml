@@ -13,10 +13,7 @@ jobs:
           npm install
           npm test
           npx update-badge
-          git remote set-url origin https://git@github.com:HaroldMaster/test-actions.git
-          git add .
-          git commit -m "Badge updated"
-          git push
+      - uses: mikeal/publish-to-github-action@master
       - name: Archive code coverage results
         uses: actions/upload-artifact@v2
         with:
