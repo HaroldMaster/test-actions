@@ -12,4 +12,12 @@ export class TwoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  suma(){
+    return 2+2;
+  }
+
+  resta(){
+    return 4-2;
+  }
+
 }
