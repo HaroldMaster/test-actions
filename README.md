@@ -1,4 +1,4 @@
-![example workflow](https://img.shields.io/badge/coverage-80-yellowgreen)
+![example workflow](https://github.com/unleashlive/unleashcloudfront/actions/workflows/testing.yml/badge.svg)
 
 # TestActions
 
